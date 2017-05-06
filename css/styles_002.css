@@ -2,6 +2,7 @@
 body {
   position: relative;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif
 }
 .moto-color1 {
   color: #679afb;
@@ -387,9 +388,6 @@ body {
   margin: 0;
   display: inline-block;
   width: 100%;
-}
-.moto-widget-social-links {
-  font-size: 0;
 }
 .moto-widget-social-links .moto-widget-social-links-list {
   list-style: none;
@@ -3664,7 +3662,6 @@ body {
   color: #679afb;
 }
 .moto-widget-menu.moto-preset-default .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1 {
-  font-family: 'PT Serif', serif;
   font-weight: 700;
   font-style: normal;
   color: #ffffff;
