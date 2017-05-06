@@ -223,10 +223,20 @@
 						<div id="cantina_container" class="">
 							<div id="cantina_block_top" class="">
 								<div id="cantina_foto" class="col-md-2">
+									<img src="images/cantine/alagna.jpeg">
 									cantina_foto
 								</div>
 								<div id="cantina_header" class="col-md-10">
-									cantina_header
+									<div id="cantina_nome" class="">
+									</div>
+									<div id="cantina_contatti" class="">
+									</div>
+									<div id="cantina_map_box" class="">
+										<div id="cantina_map" style="width:400px;height:400px;background:yellow">
+									</div>
+
+
+									</div>
 								</div>
 							</div>
 
@@ -353,3 +363,18 @@ angular.module('website.plugins', []);</script>
 <script src="js/website_002.js" type="text/javascript" data-cfasync="false"></script>
 </body>
 </html>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("cantina_map");
+  var mapOptions = {
+    center: new google.maps.LatLng(38.15,13.36), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+ -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB3e1uKpsCcOTFs7zNBUBGSnhzroj4E04&callback=myMap"></script>
+  
+
