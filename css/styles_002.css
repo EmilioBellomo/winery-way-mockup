@@ -1544,7 +1544,7 @@ body {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
   background-image: url('../images/nav_bkg.jpg');
-  background-size: auto;
+  background-size: 100%;
   background-position: left top;
   background-repeat: repeat;
 }
